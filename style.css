@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.transform-output {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: beige;
+  position: relative;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.transform-output span {
+  font-weight: 500;
+}
+
+.transform-output label {
+  font-size: 0.75rem;
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.325rem;
+  border-radius: 6px 6px 0 6px;
+}
+
+input::placeholder {
+  text-transform: capitalize;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.end-line {
+  font-weight: 700;
+  text-decoration: underline;
+}
